@@ -1,9 +1,9 @@
-# Generate Link Preview for Social Networks from Kirby Markdown
+# Link Preview for Social Networks from Kirbytext
 
 ![Result of using social meta tags](assets/meta-tags.png)
 
 ## About
-This code is written for the [Kirby CMS](getkirby.com) to generate the social media meta tags. This results in having a nice preview when posting a link on Facebook, Twitter, Linked and more! (See example above)
+This code is written for the [Kirby CMS](getkirby.com) to generate social media meta tags. This results in having a nice preview when posting a link on Facebook, Twitter, LinkedIn and more! (See example above)
 
 I wrote this script for publishing a project called [robutter](http://stephanbogner.de/projects/robutter).
 
@@ -15,7 +15,7 @@ I wrote this script for publishing a project called [robutter](http://stephanbog
 **Move the file** you just downloaded to the **Kirby Snippets folder** located in `Kirby ▶ site ▶ snippets`.
 
 ### 3. Add to Website Header
-Make to changes to your Kirby header file located at `Kirby ▶ site ▶ snippets ▶ header.php` by adding following snippet:
+Make changes to your Kirby header file located at `Kirby ▶ site ▶ snippets ▶ header.php` by adding following snippet:
 
 `<?php snippet('social-media-meta-tags') ?>`
 
@@ -45,7 +45,7 @@ Make to changes to your Kirby header file located at `Kirby ▶ site ▶ snippet
   </header>
 ```
 
-### 4. Add Open Graph prefix
+### 4. Add Open Graph HTML prefix
 
 For Open Graph you have to add a prefix to your html-tag
 
@@ -55,7 +55,7 @@ e.g. `<html prefix="og: http://ogp.me/ns#>` (in the example above, this can also
 
 ## Writing a Kirby Post
 
-Now you have to define what should be displayed when your link gets posted. This is done by adding custom tags to your markdown.
+Now you have to define what should be displayed when your link gets posted. This is done by adding custom tags to your Kirbytext markdown.
 
 ### Tags for Twitter:
 - **TwitterCard:** Card type
