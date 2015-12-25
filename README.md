@@ -9,7 +9,7 @@ I wrote this script for publishing a project called [robutter](http://stephanbog
 
 ## Installation
 ### 1. Download the script 
-[Download](social-media-meta-tags.php) the **social-media-meta-tags.php** from this repo.
+[Download](https://raw.githubusercontent.com/stephanbogner/Generate-Link-Preview-for-Social-Networks-from-Kirby-Markdown/master/social-media-meta-tags.php) the **social-media-meta-tags.php** from this repo.
 
 ### 2. Move to Kirby Snippet folder 
 **Move the file** you just downloaded to the **Kirby Snippets folder** located in `Kirby ▶ site ▶ snippets`.
@@ -33,7 +33,6 @@ Make to changes to your Kirby header file located at `Kirby ▶ site ▶ snippet
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
   <?php snippet('social-media-meta-tags') ?>
-
   <?php echo css('assets/css/main.css') ?>
 
 </head>
