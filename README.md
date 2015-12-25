@@ -9,7 +9,7 @@ I wrote this script for publishing a project called [robutter](http://stephanbog
 
 ## Installation
 ### 1. Download the script 
-[Download](https://raw.githubusercontent.com/stephanbogner/Generate-Link-Preview-for-Social-Networks-from-Kirby-Markdown/master/social-media-meta-tags.php) the **social-media-meta-tags.php** from this repo.
+[Download](https://raw.githubusercontent.com/stephanbogner/Link-Preview-for-Social-Networks-from-Kirbytext/master/social-media-meta-tags.php) the **social-media-meta-tags.php** from this repo.
 
 ### 2. Move to Kirby Snippet folder 
 **Move the file** you just downloaded to the **Kirby Snippets folder** located in `Kirby ▶ site ▶ snippets`.
