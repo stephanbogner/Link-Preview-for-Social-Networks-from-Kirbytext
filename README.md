@@ -22,7 +22,7 @@ Make changes to your Kirby header file located at `Kirby ▶ site ▶ snippets �
 **Example result:**
 ```HTML
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#>
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
 
   <meta charset="utf-8" />
