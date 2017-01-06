@@ -89,8 +89,7 @@ Now you have to define what should be displayed when your link gets posted. This
 ##### Main
 
 - **TwitterCard:** Card type
-- **TwitterSite:** Twitter handle of 
-- **TwitterCreator:** Twitter handle of page author
+- **TwitterSite:** Twitter handle of the page
 - **TwitterTitle:** Page title
 - **TwitterDescription:** Description text
 - **TwitterImage:** Image to be shown (for summary cards with images)
