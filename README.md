@@ -86,7 +86,7 @@ e.g. `<html prefix="og: http://ogp.me/ns#>` (in the example above, this can also
 Now you have to define what should be displayed when your link gets posted. This is done by adding custom tags to your Kirbytext markdown - see defaults for what happens when you don't define them.
 
 #### Tags for Twitter:
-**Main:**
+##### Main
 
 - **TwitterCard:** Card type
 - **TwitterSite:** Twitter handle of 
@@ -95,23 +95,20 @@ Now you have to define what should be displayed when your link gets posted. This
 - **TwitterDescription:** Description text
 - **TwitterImage:** Image to be shown (for summary cards with images)
 
-**Other:**
-
+##### Other
 - twitterImageAlt
 
 More infos can be found [on the Twitter Card Developer page](https://dev.twitter.com/cards/overview).
 
 #### Tags for OpenGraph:
-**Main:**
-
+##### Main
 - **OpenGraphTitle:** Page title
 - **OpenGraphDescription:** Description text
 - **OpenGraphType:** Type of OpenGraph element
 - **OpenGraphImage:** Image to be shown
 - **OpenGraphUrl:** Url to page
 
-**Other:**
-
+##### Other
 - OpenGraphAudio
 - OpenGraphDeterminer
 - OpenGraphLocale
@@ -123,32 +120,34 @@ More infos can be found [on the Twitter Card Developer page](https://dev.twitter
 More infos can be found on the [Open Graph Protocol page](http://opengraphprotocol.org/) or the [Facebook "Open Graph Stories"-page](https://developers.facebook.com/docs/sharing/opengraph).
 
 
-### Defaults (if you don't specify the tags explicitly)
+### Defaults 
+This will happen, when you don't specify the tags explicitly → for most normal posts, you won't have to specify anything. (Everything will happen in order, so if 1. can not be found, it tries 2., etc.)
+
 #### General
 - **Title**
-	1. The OpenGraph title, or (Twitter only)
+	1. The OpenGraph title (Twitter only)
 	2. The title of the page
 - **Image**
-	1. The OpenGraph image, or (Twitter only)
-	2. An image called 'opengraph.jpg', or
-	3. An image called 'opengraph.png', or
+	1. The OpenGraph image (Twitter only)
+	2. An image called 'opengraph.jpg'
+	3. An image called 'opengraph.png'
 	4. The first image of the project (which might not meet the OpenGraph criteria)
 - **Description**
-	1. Takes the OpenGraph description, or (Twitter only)
-	2. Takes the description of the website, or
+	1. Takes the OpenGraph description (Twitter only)
+	2. Takes the description of the website 
 	3. Will be empty
 
 #### Twitter specific 
 - **Site** ( = Twitter user)
 	- A default one (specified in the file)
 - **Card**
-	- The default type *summary*;
+	- The default type *summary*
 
 #### OpenGraph specific
 - **Url**
 	- The url of the page
 - **Type**
-	- Type: Article
+	- The default type *article*
 
 ### Example Markdown
 
