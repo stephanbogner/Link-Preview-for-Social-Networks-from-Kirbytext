@@ -152,21 +152,37 @@ This will happen, when you don't specify the tags explicitly → for most normal
 
 ```
 Title: robutter
+
 ----
+
 OpenGraphTitle: robutter
+
 ----
+
 OpenGraphDescription: Making butter with robots to explore the boundaries between handcraft and industrial production
+
 ----
+
 OpenGraphImage: http://stephanbogner.de/content/projects/robutter/og-image.jpg
+
 ----
+
 OpenGraphUrl: http://stephanbogner.de/projects/robutter
+
 ----
+
 TwitterCard: summary_large_image
+
 ----
+
 TwitterSite: @st_phan
+
 ----
+
 TwitterImage: http://stephanbogner.de/content/projects/robutter/og-image.jpg
+
 ----
+
 Text: You can make your own butter by shaking cream until your arms hurt. Or you can use robots instead. The resulting product is 20 jars of limited edition, hand- and robot-crafted butter. We call it *robutter*.
 ```
 
