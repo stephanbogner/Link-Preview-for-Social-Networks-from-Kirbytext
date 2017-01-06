@@ -1,0 +1,8 @@
+{
+    "name": "Generate-Link-Preview-for-Social-Networks-from-Kirby-Markdown",
+    "description": "Generates link preview for social networks",
+    "author": "Stephan Bogner <hello@stephanbogner.de>",
+    "version": "2.0.0",
+    "type": "kirby-plugin",
+    "license": "CC0"
+}
